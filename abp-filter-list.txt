@@ -1,0 +1,31 @@
+[Adblock Plus]
+! Version: 20250328
+! Title: Drekryan's ABP Filter
+! Expires: 2 days
+
+! armymwr.com
+armymwr.com##.d-flex.align-items-center.flex-column
+armymwr.com##.d-flex.justify-content-between.flex-column.flex-md-row
+||assets.armymwr.com/5015/6104/9067/MWR_Advertise_sidebar.jpg
+||assets.armymwr.com/4917/3049/3859/Fort_Moore_Leaderboard.png
+
+! bjs.com
+bjs.com##div.accessibility-section
+bjs.com##div.feedback-div
+
+! bloomberg.com
+bloomberg.com##fortress-paywall-container-root
+
+! cbsnews.com
+cbsnews.com##.fEy1Z2XT
+
+! ipsw.me
+ipsw.me##.fc-ab-dialog.fc-dialog
+ipsw.me##.fc-ab-root>div
+ipsw.me##.fc-ab-root>div>div.fc-dialog-overlay
+
+! youtube.com
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
